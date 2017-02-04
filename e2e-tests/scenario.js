@@ -156,7 +156,28 @@ describe('PhoneCat Application', function() {
             query.sendKeys('920');
 
             element.all(by.css('li a')).first().click();
-            expect(browser.getLocationAbsUrl()).toBe('#%2Fphones%2Fnokia920');
+            expect(browser.getLocationAbsUrl()).toBe('/phones/nokia920');
+        });
+        
+        
+        // STEP9
+        it('should redirect `index.html` to `index.html#!/phones', function() {
+            browser.get('index.html');
+            expect(browser.getLocationAbsUrl()).toBe('/phones');
+        });
+
+      
+        
+        describe('View: Phone details', function() {
+
+            beforeEach(function() {
+                browser.get('index.html#!/phones/nokia920');
+            });
+
+            it('should display placeholder page with `phoneId`', function() {
+                expect(element(by.binding('$ctrl.phoneId')).getText()).toBe('nokia920');
+            });
+
         });
     });
 });
