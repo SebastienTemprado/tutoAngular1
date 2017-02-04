@@ -1,0 +1,51 @@
+[
+    {
+        "id": "motorola-defy-with-motoblur",
+        "age": 13,
+        "name": "Motorola DEFY with MOTOBLUR",
+        "imageUrl" : "resources/img/motorola-defy.jpeg",
+        "snippet": "Are you ready for everything life throws your way?"
+    },
+    {
+        "id": "nokia920",
+        "age": 4,
+        "name": "Windows Phone Nokia 920",
+        "imageUrl" : "resources/img/Nokia-Lumia-920.jpg",
+        "snippet": "Peu de gens en ont un mais il fonctionne bien!"
+    },
+    {
+        "id": "huaweiP9Lite",
+        "age": 0,
+        "name": "Huawei P9 Lite",
+        "imageUrl" : "resources/img/huaweiP9Lite.png",
+        "snippet": "Avec lecteur d'empreinte digitale"
+    },
+    {
+        "id": "samsungD520",
+        "age": 10,
+        "name": "Samsung D520",
+        "imageUrl" : "resources/img/samsung-d520.jpg",
+        "snippet": "Un vieux téléphone"
+    },
+    {
+        "id": "iphone1",
+        "age": 10,
+        "name": "IPhone",
+        "imageUrl" : "resources/img/first-iphone.jpg",
+        "snippet": "IPhone v1"
+    },
+    {
+        "id": "iphone3",
+        "age": 8,
+        "name": "IPhone 3",
+        "imageUrl" : "resources/img/iphone3.jpg",
+        "snippet": "IPhone v3"
+    },
+    {
+        "id": "iphone4",
+        "age": 7,
+        "name": "IPhone 4",
+        "imageUrl" : "resources/img/iphone4.jpg",
+        "snippet": "IPhone v4"
+    }
+]
