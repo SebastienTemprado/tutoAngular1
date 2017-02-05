@@ -175,9 +175,10 @@ describe('PhoneCat Application', function() {
             });
 
             it('should display placeholder page with `phoneId`', function() {
-                expect(element(by.binding('$ctrl.phoneId')).getText()).toBe('nokia920');
+                expect(element(by.binding('$ctrl.phone.name')).getText()).toBe('Nokia Lumia 920');
             });
 
         });
+        
     });
 });

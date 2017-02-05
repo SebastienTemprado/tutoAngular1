@@ -1,0 +1,20 @@
+{
+    "name": "iphone1",
+    "description": "Le premier Iphone",
+    "additionalFeatures": "C'est une révolution",
+    "os": {
+        "version": "1",
+        "ui": "IOS"
+    },
+        "colors" : [
+        "black",
+        "white"
+    ],
+    "images": [
+        "/resources/img/first-iphone.jpg"
+    ],
+    "storage": {
+        "flash": "none",
+        "ram": "1024MB"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Motorola Defy",
+    "description": "Un smartphone Motorola",
+  "additionalFeatures": "High tech",
+  "os": {
+    "version": "1.0",
+    "ui": "MotorolaOS"
+  },
+        "colors" : [
+        "black"
+    ],
+  "images": [
+    "/resources/img/motorola-defy.jpeg"
+  ],
+  "storage": {
+    "flash": "16GB",
+    "ram": "1GB"
+  }
+}

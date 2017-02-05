@@ -1,0 +1,20 @@
+{
+    "name": "iphone3",
+    "description": "Le troisième iphone",
+  "additionalFeatures": "C'est une révolution (changement des types de connecteurs)",
+  "os": {
+    "version": "3",
+    "ui": "IOS"
+  },
+        "colors" : [
+        "black",
+        "white"
+    ],
+  "images": [
+    "/resources/img/iphone3.jpg"
+  ],
+  "storage": {
+    "flash": "none",
+    "ram": "2048MB"
+  }
+}

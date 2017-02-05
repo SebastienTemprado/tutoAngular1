@@ -1,0 +1,25 @@
+{
+    "name": "Nokia Lumia 920",
+    "description": "Un windows phone",
+  "additionalFeatures": "NFC, Fonctionne même avec des gants, Photophone",
+  "os": {
+    "version": "8.1",
+    "ui": "WindowsPhone8"
+  },
+        "colors" : [
+        "black",
+        "white",
+        "yellow",
+            "blue",
+            "cyan"
+    ],
+  "images": [
+    "/resources/img/Nokia-Lumia-920.jpg",
+    "/resources/img/Nokia-Lumia-920_b.jpg",
+    "/resources/img/Nokia-Lumia-920_c.jpg"
+  ],
+  "storage": {
+    "flash": "none",
+    "ram": "1024MB"
+  }
+}

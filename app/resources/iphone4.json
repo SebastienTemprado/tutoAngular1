@@ -1,0 +1,21 @@
+{
+    "name": "iphone4",
+    "description": "Le quatrième iphone",
+  "additionalFeatures": "C'est une révolution (changement à nouveau des types de connecteurs)",
+  "os": {
+    "version": "4",
+    "ui": "IOS"
+  },
+        "colors" : [
+        "black",
+        "white",
+        "gold"
+    ],
+  "images": [
+    "/resources/img/iphone4.jpg"
+  ],
+  "storage": {
+    "flash": "none",
+    "ram": "3072MB"
+  }
+}
