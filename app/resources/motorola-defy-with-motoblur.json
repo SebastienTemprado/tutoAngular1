@@ -1,7 +1,9 @@
 {
     "name": "Motorola Defy",
     "description": "Un smartphone Motorola",
-  "additionalFeatures": "High tech",
+"features": {
+        "wifi" : true, "bluetooth" : true, "NFC" : true
+    },
   "os": {
     "version": "1.0",
     "ui": "MotorolaOS"

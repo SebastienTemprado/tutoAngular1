@@ -5,21 +5,27 @@
 <p>{{$ctrl.phone.description}}</p>
 
 <ul class="phone-thumbs">
-  <li ng-repeat="img in $ctrl.phone.images">
-    <img ng-src="{{img}}" />
-  </li>
+    <li ng-repeat="img in $ctrl.phone.images">
+        <img ng-src="{{img}}" />
+    </li>
 </ul>
 
 <ul class="specs">
-  <li>
-    <span>Colors</span>
-    <dl>
-      <dt>Colors</dt>
-      <dd ng-repeat="color in $ctrl.phone.colors">{{color}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Additional Features</span>
-    <dd>{{$ctrl.phone.additionalFeatures}}</dd>
-  </li>
+    <li>
+        <dl>
+            <dt>Colors</dt>
+            <dd ng-repeat="color in $ctrl.phone.colors">{{color}}</dd>
+        </dl>
+    </li>
+    <li>
+        <span>Features</span>
+        <dl>
+            <dt>Wifi</dt>
+            <dd>{{$ctrl.phone.features.wifi | checkmark}}</dd>
+            <dt>Bluetooth</dt>
+            <dd>{{$ctrl.phone.features.bluetooth | checkmark}}</dd>
+            <dt>NFC</dt>
+            <dd>{{$ctrl.phone.features.NFC | checkmark}}</dd>
+        </dl>
+    </li>
 </ul>

@@ -17,6 +17,8 @@ module.exports = function(config) {
             'phone-list/phone-list.component.js',
             'phone-detail/phone-detail.module.js',
             'phone-detail/phone-detail.component.js',
+            'core/core.module.js',
+            'core/checkmark/checkmark.filter.js',
             '**/*.js'
         ],
 

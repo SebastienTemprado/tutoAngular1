@@ -1,7 +1,9 @@
 {
     "name": "iphone3",
     "description": "Le troisième iphone",
-  "additionalFeatures": "C'est une révolution (changement des types de connecteurs)",
+  "features": {
+        "wifi" : true, "bluetooth" : true, "NFC" : false
+    },
   "os": {
     "version": "3",
     "ui": "IOS"

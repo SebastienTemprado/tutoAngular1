@@ -1,7 +1,9 @@
 {
     "name": "iphone1",
     "description": "Le premier Iphone",
-    "additionalFeatures": "C'est une révolution",
+    "features": {
+        "wifi" : false, "bluetooth" : true, "NFC" : false
+    },
     "os": {
         "version": "1",
         "ui": "IOS"

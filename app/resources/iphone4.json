@@ -1,7 +1,9 @@
 {
     "name": "iphone4",
     "description": "Le quatrième iphone",
-  "additionalFeatures": "C'est une révolution (changement à nouveau des types de connecteurs)",
+  "features": {
+        "wifi" : true, "bluetooth" : true, "NFC" : true
+    },
   "os": {
     "version": "4",
     "ui": "IOS"

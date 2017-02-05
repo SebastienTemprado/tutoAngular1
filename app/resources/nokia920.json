@@ -1,7 +1,9 @@
 {
     "name": "Nokia Lumia 920",
     "description": "Un windows phone",
-  "additionalFeatures": "NFC, Fonctionne même avec des gants, Photophone",
+"features": {
+        "wifi" : true, "bluetooth" : true, "NFC" : true
+    },
   "os": {
     "version": "8.1",
     "ui": "WindowsPhone8"

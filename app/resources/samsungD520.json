@@ -1,20 +1,22 @@
 {
     "name": "Samsung D520",
     "description": "Un téléphone coulissant très vieux",
-  "additionalFeatures": "Coulissant, solide",
-  "os": {
-    "version": "1.0",
-    "ui": "SamsungOS"
-  },
+"features": {
+        "wifi" : false, "bluetooth" : true, "NFC" : false
+    },
+    "os": {
+        "version": "1.0",
+        "ui": "SamsungOS"
+    },
         "colors" : [
         "black"
     ],
-  "images": [
-    "/resources/img/sgh-d520.jpg",
-    "/resources/img/samsung-d520.jpg"
-  ],
-  "storage": {
-    "flash": "none",
-    "ram": "128MB"
-  }
+    "images": [
+        "/resources/img/sgh-d520.jpg",
+        "/resources/img/samsung-d520.jpg"
+    ],
+    "storage": {
+        "flash": "none",
+        "ram": "128MB"
+    }
 }
