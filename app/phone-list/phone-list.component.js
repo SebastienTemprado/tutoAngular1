@@ -9,17 +9,10 @@ angular.module('phoneListModule').
 //          '</li>' +
 //        '</ul>',
         templateUrl: 'phone-list/phone-list.template.html',
-        controller: ['$http', function PhoneListController($http) {
+        controller: ['Phone', function PhoneListController(Phone) {
             var self = this;
             
-            $http.get("/resources/phones.json").then(
-                function success(response) {
-                    self.phones = response.data;
-                },
-                function error(response) {
-                    console.log("Error on phones.json : " + response);
-                } 
-            );
+            this.phones = Phone.query();
             self.orderProp = 'age';
         }]
     });

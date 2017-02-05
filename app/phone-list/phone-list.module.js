@@ -1,2 +1,2 @@
 // Define the `phoneList` module
-angular.module('phoneListModule', []);
+angular.module('phoneListModule', ['core.phone']);

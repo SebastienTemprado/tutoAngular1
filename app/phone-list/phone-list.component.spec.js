@@ -17,8 +17,11 @@ describe('PhoneList', function () {
         }));
         
         it('should create a `phones` model with some phones got from phones.json', function() {
-            expect(ctrl.phones).toBeUndefined();
+            jasmine.addCustomEqualityTester(angular.equals);
+            expect(ctrl.phones).toEqual([]);
+            
             $httpBackend.flush();
+            
             expect(ctrl.phones.length).toBe(2);
             expect(ctrl.phones).toEqual([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
         });  

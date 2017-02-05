@@ -1,9 +1,9 @@
 {
     "name": "huawei P9 Lite",
     "description": "Smartphone de 2016",
-    "features": [
+    "features": {
         "wifi" : true, "bluetooth" : true, "NFC" : true
-    ],
+    },
     "os": {
         "version": "6.0",
         "ui": "AndroidOS"
